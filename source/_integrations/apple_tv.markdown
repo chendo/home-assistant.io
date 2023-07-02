@@ -158,6 +158,11 @@ and include logs (see Debugging below).
 The Apple TV is quite picky when it comes to which formats it plays. The best bet is MP4. If it doesn't
 work, it's likely because of the media format.
 
+### My Apple TV isn't being discovered
+
+If you are running Home Assistant in a virtual machine, ensure it is
+[able to receive multicast traffic](https://www.home-assistant.io/integrations/zeroconf/#libvirt-virtual-machine-with-macvtap-adapter)
+
 ## Debugging
 
 If you have any problems and intend to write an issue, make sure you have the
